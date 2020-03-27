@@ -1,6 +1,6 @@
 let sortArrayByParity = function(arr) {
     evenArr=[];
-    oddArr=[];
+    //oddArr=[];
     if (arr.length < 0 && !Array.isArray(arr)) {
         throw Error('array needs more numbers for sorting')
     }else{
@@ -19,6 +19,7 @@ let sortArrayByParity = function(arr) {
     }
     
 };
+
 
 
 
